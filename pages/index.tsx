@@ -13,6 +13,7 @@ const Home: NextPage = () => {
         <title>Seth Easter</title>
         <meta name="description" content="Seth Easter" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="darkreader-lock" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
