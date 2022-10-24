@@ -47,7 +47,11 @@ const Home: NextPage = () => {
               <a className={styles.link} href="/Resume.pdf" target="_blank">
                 <span className={styles.linkIcon}>📃</span> View my resume
               </a>
-              <a className={styles.link} href="https://github.com/SethEaster">
+              <a
+                className={styles.link}
+                href="https://github.com/SethEaster"
+                target="_blank"
+              >
                 <span className={classnames(styles.linkIcon, styles.inverted)}>
                   <img src="/github.svg"></img>
                 </span>
@@ -56,6 +60,7 @@ const Home: NextPage = () => {
               <a
                 className={styles.link}
                 href="https://www.linkedin.com/in/seth-easter-986985254/"
+                target="_blank"
               >
                 <span className={styles.linkIcon} data-invert>
                   <img src="/linkedin.png"></img>
