@@ -44,13 +44,19 @@ const Home: NextPage = () => {
               animate={{ opacity: 1, scaleX: 1 }}
               transition={{ delay: 1.5, duration: 0.5 }}
             >
-              <a className={styles.link} href="/Resume.pdf" target="_blank">
+              <a
+                className={styles.link}
+                href="/Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <span className={styles.linkIcon}>📃</span> View my resume
               </a>
               <a
                 className={styles.link}
                 href="https://github.com/SethEaster"
                 target="_blank"
+                rel="noreferrer"
               >
                 <span className={classnames(styles.linkIcon, styles.inverted)}>
                   <img src="/github.svg"></img>
@@ -61,6 +67,7 @@ const Home: NextPage = () => {
                 className={styles.link}
                 href="https://www.linkedin.com/in/seth-easter-986985254/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <span className={styles.linkIcon} data-invert>
                   <img src="/linkedin.png"></img>
