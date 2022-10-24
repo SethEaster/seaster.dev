@@ -1,0 +1,6 @@
+.letter {
+  display: inline-block;
+  line-height: 1em;
+  white-space: pre;
+  transform-origin: left;
+}
