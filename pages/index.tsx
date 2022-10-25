@@ -5,6 +5,7 @@ import { FC } from "react";
 import styles from "../styles/Home.module.css";
 import classnames from "classnames";
 import { AnimatedText } from "../components/AnimatedText";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -20,8 +21,8 @@ const Home: NextPage = () => {
       <motion.main className={styles.main}>
         <motion.div
           className={styles.content}
-          initial={{ opacity: 0, scale: 0.75 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ scale: 0.75 }}
+          animate={{ scale: 1 }}
           transition={{ duration: 0.5 }}
         >
           <div className={styles.left}>
