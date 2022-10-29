@@ -1,0 +1,51 @@
+.item {
+  display: flex;
+  flex-direction: column;
+
+  padding: 32px;
+  border-radius: 16px;
+  width: min(800px, 80vw);
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.image {
+  margin: 16px;
+  height: auto;
+  border-radius: 16px;
+
+  box-shadow: 0px 0px 249px 46px rgba(46, 140, 255, 0.03);
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.url {
+  font-size: 1.25rem;
+}
+
+.url {
+  border-radius: 16px;
+  padding: 16px;
+  transition: background-color 0.1s ease-out;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.url:hover {
+  background-color: rgba(255, 255, 255, 0.025);
+}
+
+@media (max-width: 680px) {
+  .url {
+    background-color: rgba(255, 255, 255, 0.025);
+  }
+}
+
+.description {
+  font-size: 1rem;
+}

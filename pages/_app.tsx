@@ -1,8 +1,8 @@
-import "../styles/globals.css";
+import "styles/globals.css";
 import type { AppProps } from "next/app";
 
-function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+function App({ Component, pageProps, router }: AppProps) {
+  return <Component {...pageProps} key={router.pathname} />;
 }
 
 export default App;

@@ -1,4 +1,4 @@
-import styles from "/styles/AnimatedText.module.css";
+import styles from "./AnimatedText.module.css";
 import { motion } from "framer-motion";
 import { FC } from "react";
 
